@@ -1,7 +1,8 @@
-# Kafka Connect JDBC Connector
+# Kafka Connect OceanBase Connector
 
-kafka-connect-jdbc is a [Kafka Connector](http://kafka.apache.org/documentation.html#connect)
-for loading data to and from any JDBC-compatible database.
+kafka-connect-oceanbase is a [Kafka Connector](http://kafka.apache.org/documentation.html#connect)
+for loading data to and from any oceanbase-compatible database.
+It mainly supports Oracle mode and MySQL mode, and uses the oceanbase-client driver to connect, and the code is automatically distinguished
 
 Documentation for this connector can be found [here](http://docs.confluent.io/current/connect/connect-jdbc/docs/index.html).
 
@@ -15,14 +16,14 @@ You can build kafka-connect-jdbc with Maven using the standard lifecycle phases.
 # FAQ
 
 Refer frequently asked questions on Kafka Connect JDBC here -
-https://github.com/confluentinc/kafka-connect-jdbc/wiki/FAQ
+https://github.com/xxsc0529/kafka-connect-oceanbase/wiki/FAQ
 
 # Contribute
 
 Contributions can only be accepted if they contain appropriate testing. For example, adding a new dialect of JDBC will require an integration test.
 
-- Source Code: https://github.com/confluentinc/kafka-connect-jdbc
-- Issue Tracker: https://github.com/confluentinc/kafka-connect-jdbc/issues
+- Source Code: https://github.com/xxsc0529/kafka-connect-oceanbase
+- Issue Tracker: https://github.com/xxsc0529/kafka-connect-oceanbase/issues
 - Learn how to work with the connector's source code by reading our [Development and Contribution guidelines](CONTRIBUTING.md).
 
 # Information
