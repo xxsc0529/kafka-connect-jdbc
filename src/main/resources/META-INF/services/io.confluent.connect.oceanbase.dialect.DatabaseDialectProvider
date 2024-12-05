@@ -1,0 +1,3 @@
+io.confluent.connect.oceanbase.dialect.GenericDatabaseDialect$Provider
+io.confluent.connect.oceanbase.dialect.OceanBaseMysqlDatabaseDialect$Provider
+io.confluent.connect.oceanbase.dialect.OceanBaseOracleDatabaseDialect$Provider

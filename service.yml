@@ -1,4 +1,4 @@
-name: kafka-connect-jdbc
+name: kafka-connect-oceanbase
 lang: java
 lang_version: 8
 git:
